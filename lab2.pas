@@ -1,29 +1,24 @@
-(*
- * Project: labs
- * User: tatsianamarfel
- * Date: 5/8/18
- *)
-program lab2;
+PROGRAM practice2;
+Uses Regexpr, Sysutils;
 
-uses regexpr;
-
-var
+Var
   re : TRegExpr;
-    {экземпляр класса TRegExpr}
+    {Экземпляр класса TRegExpr}
   ls, s1, s2 : string;
-    {исходная и итоговые строки}
+    {Исходная и итоговые строки}
   la : array of string;
-    {массив для добавления каждого слова строки}
+    {Массив для добавления каждого слова строки}
   minLength, i, ind, count : Integer;
     {Вспомогательные переменные для подсчета минимальной длины и итерации  цикла}
   word : boolean;
-begin
-  ReadLn(ls); {Чтение данных введенных пользователем}
-  if Length(ls) < 1 then {Условие для обработки пустой строки}
-    WriteLn('Error. The string should not be empty');
-  re := TRegExpr.Create; {Создание экземляра класса TRegExpr для обработки регулярных выражений}
-  re.Expression := ('[\s,.]'); {Набор символов для разбиения строки на слова}
 
+BEGIN
+  ReadLn(ls); {Чтение данных введенных пользователем}
+  ls := Trim(ls); {Удаление начальных и конечных пробелов во введенной строке при наличии таковых}
+
+
+  re := TRegExpr.Create; {Создание экземляра класса TRegExpr для обработки регулярных выражений}
+  re.Expression := ('[A-Za-z0-9_]'); {Словообразующие символы}
   ind := 0; {Установление индекса для первого элемента массива}
   count := 0; {Инициализация переменной для подсчета слов в строке}
 
@@ -31,10 +26,9 @@ begin
   while i < Length(ls) do
   begin
     {Если элемент с индексом i не является буквой, значение переменной устанавливается в false и цикл переходит на следующую итерацию}
-    if re.exec(ls[i]) then
+    if not(re.exec(ls[i])) then
       word := false
-
-    {Если элемент с индексом i не является буквой и word установлено в false, то счетчик увеличивается на 1, при этом word становится true }
+        {Если элемент с индексом i не является буквой и word установлено в false, то счетчик увеличивается на 1, при этом word становится true }
     else if NOT(word) then
     begin
       word := true;
@@ -42,59 +36,71 @@ begin
     end;
     i := i + 1;
   end;
-  WriteLn('Количество слов во введенной строке составляет ', count);
+  if (Length(ls) < 1) Or (count = 0) then {Условие обработки пустой строки и строки, не содержащей словообразующих символов}
+  begin
+    WriteLn('Error. The string should not be empty and should contain at least one word character');
+    exit;
+  end;
+  WriteLn('Original string: ');
+  WriteLn(ls, #13#10); {Вывод изначальной строки}
+  WriteLn('Number of words in the string: ', count, #13#10);
 
-  {Установление длины динамического массива на основе количества слов во введенной строке}
-  SetLength(la, count);
-
+  SetLength(la, count); {Установление длины динамического массива на основе количества слов во введенной строке}
+  word := false; {Присвоение значения false условной переменной}
 
   {Цикл для заполнения массива словами из введенной строки}
-  for i:=0 to Length(ls) do
+  for i:=0 to Length(ls) + 1 do
   begin
     {Если элемент является буквой, то она добавляется в переменную.
-     При совпадении с регулярным выражением слово из переменной сохраняется в элемент массива }
-    if NOT re.exec(ls[i]) then
+    Если подряд встречаются несколько символов, не являющимися буквами, то цикл продолжается.
+    При совпадении с регулярным выражением слово из переменной сохраняется в элемент массива, а значение s1 удаляется}
+    if re.exec(ls[i]) and (i <> Length(ls) + 1) then
     begin
       s1 := Concat(s1 + ls[i]);
+      word := true;
     end
+    else if not(word) then
+      continue
     else
     begin
+      word := false;
       la[ind] := s1;
-      WriteLn(s1);
       s1 := '';
-
-      WriteLn(Length(la[ind]));
       ind := ind + 1;
     end;
   end;
 
+  minLength := Length(la[0]); {Присвоение значения минимальной длины равной длине нулевого элемента массива}
 
-  minLength := Length(la[0]);
+  {Нахождение слова с минимальной длиной в массиве, отличного от последнего слова}
   for i:=0 to Length(la) do
-
   begin
-
     If (Length(la[i]) < minLength) AND NOT(la[i] = la[Length(la)]) then
     begin
       minLength := Length(la[i]);
       s1 := la[i];
     end;
-
   end;
-  WriteLn(s1);
+  WriteLn('S1 string with a minimum number of chars: ', s1, #13#10); {Вывод слова с минимальной длиной}
 
+  count := 0; {Присвоение нулевого значения вспомогательной переменной}
+  WriteLn('S2 occurrences');
+  {Цикл для нахождения заданной подстроки в каждом элементе массива с ее последующим удаление}
   for i:=0 to Length(la) do
   begin
     if pos('th', la[i]) <> 0 then
     begin
-      Delete(la[i], pos('th', la[i]), 2);
-      Writeln(la[i]);
+      s2 := la[i];
+      WriteLn('#', count);
+      Write(s2, #20, '->', #20);
+      Delete(s2, pos('th', s2), 2);
+      Writeln(s2);
+      count := count + 1;
     end
-    else
+        {Вывод ошибки при отсутствии искомой подстроки в элементах массива}
+    else if (count = 0) and (i = Length(la)) then
     begin
-      WriteLn('No occurrences of "th" were found. Try again with a differnt string.');
-      break
+      WriteLn('No occurrence of "th" were found. Try again with a different string');
     end;
   end;
-
 end.
