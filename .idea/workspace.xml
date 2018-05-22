@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b9ef48a-eebe-43c8-a47f-2161a99f0ff9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/practice1.pas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2.pas" beforeDir="false" afterPath="$PROJECT_DIR$/lab2.pas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/labs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labs/lab2" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labs/lab2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labs/lab2.o" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labs/lab2.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1.pas" beforeDir="false" afterPath="$PROJECT_DIR$/practice1.pas" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +31,11 @@
       <file leaf-file-name="practice1.pas" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/practice1.pas">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+            <state relative-caret-position="18">
+              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#85#95#0" expanded="true" />
+                <element signature="e#85#94#0" expanded="true" />
                 <element signature="e#898#932#0" expanded="true" />
                 <element signature="e#2009#2074#0" expanded="true" />
               </folding>
@@ -64,6 +60,7 @@
       <find>c</find>
       <find>th</find>
       <find>one</find>
+      <find>b</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -239,13 +236,13 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290653" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.4996321" weight="0.3290653" />
+      <window_info active="true" anchor="bottom" id="Messages" sideWeight="0.4996321" visible="true" weight="0.3290653" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50110376" side_tool="true" weight="0.3290653" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49889624" visible="true" weight="0.3290653" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49889624" weight="0.3290653" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290653" />
       <window_info id="Capture Tool" order="2" />
@@ -306,11 +303,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice1.pas">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        <state relative-caret-position="18">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#85#95#0" expanded="true" />
+            <element signature="e#85#94#0" expanded="true" />
             <element signature="e#898#932#0" expanded="true" />
             <element signature="e#2009#2074#0" expanded="true" />
           </folding>
