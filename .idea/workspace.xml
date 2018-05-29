@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b9ef48a-eebe-43c8-a47f-2161a99f0ff9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/PCalculation.pas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labs/lab2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labs/lab2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/labs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labs/practice1" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labs/practice1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labs/practice1.o" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labs/practice1.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice1.pas" beforeDir="false" afterPath="$PROJECT_DIR$/practice1.pas" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +22,8 @@
       <file leaf-file-name="lab2.pas" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab2.pas">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="83" selection-start-line="40" selection-start-column="83" selection-end-line="40" selection-end-column="83" />
+            <state relative-caret-position="60">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="16" />
               <folding>
                 <element signature="e#19#42#0" expanded="true" />
                 <element signature="e#1824#2100#0" expanded="true" />
@@ -30,18 +32,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="practice1.pas" pinned="false" current-in-tab="true">
+      <file leaf-file-name="practice1.pas" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/practice1.pas">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+            <state relative-caret-position="215">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#85#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PCalculation.pas" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PCalculation.pas">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#85#94#0" expanded="true" />
-                <element signature="e#327#345#0" expanded="true" />
-                <element signature="e#898#932#0" expanded="true" />
-                <element signature="e#1167#1189#0" expanded="true" />
-                <element signature="e#2035#2100#0" expanded="true" />
+                <element signature="e#88#102#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,6 +92,7 @@
       <list>
         <option value="$PROJECT_DIR$/lab2.pas" />
         <option value="$PROJECT_DIR$/practice1.pas" />
+        <option value="$PROJECT_DIR$/PCalculation.pas" />
       </list>
     </option>
   </component>
@@ -103,9 +114,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Pascal executable.[labs] practice1">
+  <component name="RunManager" selected="Pascal executable.[labs] PCalculation">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -182,6 +193,9 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="[labs] PCalculation" type="#com.siberika.idea.pascal.run.PascalConfigurationType" factoryName="Pascal executable" temporary="true" program_file_name="PCalculation">
+      <module name="labs" />
+    </configuration>
     <configuration name="[labs] lab2" type="#com.siberika.idea.pascal.run.PascalConfigurationType" factoryName="Pascal executable" temporary="true" program_file_name="lab2">
       <module name="labs" />
     </configuration>
@@ -204,9 +218,11 @@
     <list>
       <item itemvalue="Pascal executable.[labs] lab2" />
       <item itemvalue="Pascal executable.[labs] practice1" />
+      <item itemvalue="Pascal executable.[labs] PCalculation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Pascal executable.[labs] PCalculation" />
         <item itemvalue="Pascal executable.[labs] practice1" />
         <item itemvalue="Pascal executable.[labs] lab2" />
       </list>
@@ -235,12 +251,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1401" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1401" height="878" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290653" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.4996321" weight="0.3290653" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4996321" weight="0.3290653" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -251,8 +266,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290653" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2575423" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2612215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -264,6 +278,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -275,14 +290,59 @@
         <line-breakpoint enabled="true" type="PascalLineBreakpoint">
           <url>file://$PROJECT_DIR$/lab2.pas</url>
           <line>67</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lab2.pas">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#19#42#0" expanded="true" />
+            <element signature="e#1824#2100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice1.pas">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+          <folding>
+            <element signature="e#85#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/fpc/3.0.4/units/x86_64-darwin/regexpr/regexpr.ppu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="117" column="84" lean-forward="true" selection-start-line="117" selection-start-column="84" selection-end-line="117" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/fpc/3.0.4/units/x86_64-darwin/rtl/classes.ppu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16785">
+          <caret line="1119" column="9" selection-start-line="1119" selection-start-column="9" selection-end-line="1119" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCalculation.pas">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-start-column="2" selection-end-line="31" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#88#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab2.pas">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -296,8 +356,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lab2.pas">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="83" selection-start-line="40" selection-start-column="83" selection-end-line="40" selection-end-column="83" />
+        <state relative-caret-position="60">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="16" />
           <folding>
             <element signature="e#19#42#0" expanded="true" />
             <element signature="e#1824#2100#0" expanded="true" />
@@ -305,17 +365,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/lib/fpc/3.0.4/units/x86_64-darwin/regexpr/regexpr.ppu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="117" column="84" selection-start-line="117" selection-start-column="84" selection-end-line="117" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/fpc/3.0.4/units/x86_64-darwin/rtl/classes.ppu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16785">
+          <caret line="1119" column="9" selection-start-line="1119" selection-start-column="9" selection-end-line="1119" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/practice1.pas">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+        <state relative-caret-position="215">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#85#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCalculation.pas">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#85#94#0" expanded="true" />
-            <element signature="e#327#345#0" expanded="true" />
-            <element signature="e#898#932#0" expanded="true" />
-            <element signature="e#1167#1189#0" expanded="true" />
-            <element signature="e#2035#2100#0" expanded="true" />
+            <element signature="e#88#102#0" expanded="true" />
           </folding>
         </state>
       </provider>
