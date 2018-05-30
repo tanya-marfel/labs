@@ -1,0 +1,12 @@
+#ds_store files
+.DS_Store
+_DS_Store
+*/.DS_Store
+*/_DS_Store
+.DS_Store?
+_DS_Store?
+
+#ide folders
+.idea/
+*.iml
+/.metadata/
