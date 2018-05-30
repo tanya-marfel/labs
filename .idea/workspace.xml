@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b9ef48a-eebe-43c8-a47f-2161a99f0ff9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/PCalculation.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PerfectNumbers.pas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PCalculation.pas" beforeDir="false" afterPath="$PROJECT_DIR$/PCalculation.pas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/labs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/labs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labs/practice1" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labs/practice1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labs/practice1.o" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labs/practice1.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice1.pas" beforeDir="false" afterPath="$PROJECT_DIR$/practice1.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labs/PCalculation" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labs/PCalculation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labs/PCalculation.o" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labs/PCalculation.o" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,14 +44,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PCalculation.pas" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PCalculation.pas" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PCalculation.pas">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="394">
+              <caret line="43" column="98" selection-start-line="43" selection-start-column="98" selection-end-line="43" selection-end-column="98" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#88#102#0" expanded="true" />
+                <element signature="e#88#108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PerfectNumbers.pas" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PerfectNumbers.pas">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,6 +75,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="PascalProgram" />
+        <option value="PascalUnit" />
       </list>
     </option>
   </component>
@@ -93,6 +106,7 @@
         <option value="$PROJECT_DIR$/lab2.pas" />
         <option value="$PROJECT_DIR$/practice1.pas" />
         <option value="$PROJECT_DIR$/PCalculation.pas" />
+        <option value="$PROJECT_DIR$/PerfectNumbers.pas" />
       </list>
     </option>
   </component>
@@ -148,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Pascal executable.[labs] PCalculation">
+  <component name="RunManager" selected="Pascal executable.[labs] PerfectNumbers">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -196,6 +210,9 @@
     <configuration name="[labs] PCalculation" type="#com.siberika.idea.pascal.run.PascalConfigurationType" factoryName="Pascal executable" temporary="true" program_file_name="PCalculation">
       <module name="labs" />
     </configuration>
+    <configuration name="[labs] PerfectNumbers" type="#com.siberika.idea.pascal.run.PascalConfigurationType" factoryName="Pascal executable" temporary="true" program_file_name="PerfectNumbers">
+      <module name="labs" />
+    </configuration>
     <configuration name="[labs] lab2" type="#com.siberika.idea.pascal.run.PascalConfigurationType" factoryName="Pascal executable" temporary="true" program_file_name="lab2">
       <module name="labs" />
     </configuration>
@@ -219,9 +236,11 @@
       <item itemvalue="Pascal executable.[labs] lab2" />
       <item itemvalue="Pascal executable.[labs] practice1" />
       <item itemvalue="Pascal executable.[labs] PCalculation" />
+      <item itemvalue="Pascal executable.[labs] PerfectNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Pascal executable.[labs] PerfectNumbers" />
         <item itemvalue="Pascal executable.[labs] PCalculation" />
         <item itemvalue="Pascal executable.[labs] practice1" />
         <item itemvalue="Pascal executable.[labs] lab2" />
@@ -338,7 +357,7 @@
           <caret line="27" selection-start-line="27" selection-start-column="2" selection-end-line="31" selection-end-column="8" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#88#102#0" expanded="true" />
+            <element signature="e#88#108#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -391,11 +410,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PCalculation.pas">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        <state relative-caret-position="394">
+          <caret line="43" column="98" selection-start-line="43" selection-start-column="98" selection-end-line="43" selection-end-column="98" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#88#102#0" expanded="true" />
+            <element signature="e#88#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerfectNumbers.pas">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
